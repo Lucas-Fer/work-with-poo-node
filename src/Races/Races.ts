@@ -1,4 +1,4 @@
-abstract class Race {
+abstract class Races {
   readonly name: string;
   readonly dexterity: number;
 
@@ -14,4 +14,4 @@ abstract class Race {
   public abstract get maxLifePoints(): number;
 }
 
-export default Race;
+export default Races;
